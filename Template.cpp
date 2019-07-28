@@ -12,6 +12,16 @@
 #define keyd pair<double, double>
 #define ff first
 #define ss second
+#define getmin(ar,size)		*min_element(ar,ar+size)
+#define getmax(ar,size)		*max_element(ar,ar+size)
+#define debug1(x) 			cout<<x<<endl
+#define debug2(x,y)			cout<<x<<" "<<y<<endl
+#define debug3(x,y,z)		cout<<x<<" "<<y<<" "<<z<<endl
+#define debug4(x,y,z,zz)	cout<<x<<" "<<y<<" "<<z<<" "<<zz<<endl
+#define inp1(x)				cin>>x
+#define inp2(x,y)			cin>>x>>y
+#define inp3(x,y,z)			cin>>x>>y>>z
+
 int mod = 1e9+7;
 
 using namespace std;
@@ -19,4 +29,5 @@ using namespace std;
 int main()
 {
 	
+
 }
