@@ -2,9 +2,9 @@
 
 1. Run a loop N-1 times; where N is number of vertices
 2. For every iteration, go thrught all the edges, i.e, run a loop for all vertices and in every iteration go through its adjacency list  
-3. If adjacent Vertex's distance required updation; Update it
+3. If adjacent Vertex's distance requires updation; Update it
 
-BY NOW, WE HAVE ARRIVE AT THE SHORTEST DISTACNCE FROM ROOT TO ALL NODES(which is stored in dist[] array)
+BY NOW, WE HAVE ARRIVED AT THE SHORTEST DISTACNCE FROM ROOT TO ALL NODES(which is stored in dist[] array)
 
 4. Go through all the edges, ONE more time.
 5. If there is condition for Relaxation/Updation, It means a NEGATIVE CYCLE IS PRESENT
